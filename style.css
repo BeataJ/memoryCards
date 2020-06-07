@@ -53,3 +53,20 @@ h1 button {
   left: 30px;
   ;
 }
+
+.cards {
+  perspective: 1000px;
+  position: relative;
+  height: 300px;
+  width: 500px;
+  min-width: 100%;
+}
+
+.card {
+  position: absolute;
+  opacity: 0;
+}
+
+.card.active {
+  opacity: 1;
+}
