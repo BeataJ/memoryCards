@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -59,7 +59,7 @@ h1 button {
   position: relative;
   height: 300px;
   width: 500px;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .card {
@@ -76,4 +76,12 @@ h1 button {
   cursor: pointer;
   opacity: 1;
   z-index: 10;
+}
+
+.inner-card {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .3);
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
