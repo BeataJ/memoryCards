@@ -73,6 +73,10 @@ h1 button {
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
+.card.left {
+  transform: translateX(50%) rotateY(10deg);
+}
+
 .card.active {
   cursor: pointer;
   opacity: 1;
