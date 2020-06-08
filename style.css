@@ -150,7 +150,7 @@ h1 button {
 }
 
 .add-container {
-  /* opacity: 0; */
+  opacity: 0;
   z-index: -1;
   background-color: #f0f0f0;
   border-top: 2px solod #eee;
@@ -164,4 +164,9 @@ h1 button {
   bottom: 0;
   width: 100%;
   transition: .3s ease;
+}
+
+.add-container.show {
+  opacity: 1;
+  z-index: 2;
 }
