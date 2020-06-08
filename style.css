@@ -73,7 +73,6 @@ h1 button {
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
-
 .card.active {
   cursor: pointer;
   opacity: 1;
@@ -92,7 +91,7 @@ h1 button {
   width: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform .4s ease;
+  transition: transform 0.4s ease;
 }
 
 .card.show-answer .inner-card {
@@ -132,4 +131,20 @@ h1 button {
   font-weight: bold;
   font-size: 16px;
   color: #ddd;
+}
+
+.navigation {
+  display: flex;
+  margin: 20px 0;
+}
+
+.navigation .nav-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navigation p {
+  margin: 0 25px;
 }
