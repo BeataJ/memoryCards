@@ -90,4 +90,6 @@ nextBtn.addEventListener('click', () => {
   }
 
   cardsEl[currentActiveCard].className = 'card active';
+
+  updateCurrentText();
 });
