@@ -88,6 +88,9 @@ function getCardsData() {
 
 createCards();
 
+// Event Listeners--------
+
+// next btn
 nextBtn.addEventListener('click', () => {
   cardsEl[currentActiveCard].className = 'card left';
 
@@ -102,6 +105,7 @@ nextBtn.addEventListener('click', () => {
   updateCurrentText();
 });
 
+// prev btn
 prevBtn.addEventListener('click', () => {
   cardsEl[currentActiveCard].className = 'card right';
 
@@ -115,3 +119,6 @@ prevBtn.addEventListener('click', () => {
 
   updateCurrentText();
 });
+
+// Show add container
+showBtn.addEventListener('click', () => addContainer.classList.add('show'));
