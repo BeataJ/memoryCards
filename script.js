@@ -80,6 +80,12 @@ function updateCurrentText() {
   `;
 }
 
+// Get cards from local storage
+function getCardsData() {
+  const cards = JSON.parse(localStorage.getItem('cards'));
+  return cards === null ? [] : cards;
+}
+
 createCards();
 
 nextBtn.addEventListener('click', () => {
